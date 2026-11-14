@@ -1,0 +1,147 @@
+body {
+
+    background-color: black;
+    
+
+    color: red
+
+}
+
+a
+{
+    color: rgb(252, 67, 67);
+
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.bar {
+    border-bottom: 1px solid red;
+    padding: 15px 0;   
+}
+
+.navlist a {
+    transition: color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.navlist a:hover {
+    color: rgb(255,200,200)
+}
+
+.bar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding: 10px 0;
+}
+
+img {
+    image-rendering: crisp-edges;
+}
+
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+
+.sc {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%;
+}
+
+.ce {
+    text-align: center;
+}
+
+p {
+    font-family:monospace;
+    font-size: 25px;
+}
+
+h1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 75px;
+}
+
+h2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.box {
+    width: 90%;
+    height: 200%;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: rgb(60,0,0);
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    color: red
+}
+
+.buttonc
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+button {
+
+    font-size: 50px;
+    background-color: rgb(100,0,0);
+    border-color: red;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.1s ease;
+    padding: 5px 70px;
+}
+
+.buttonimage {
+    vertical-align: middle; 
+    margin-left: auto;
+    margin-right: auto;    
+    
+}
+
+.bidiv {
+    text-align: center; 
+    margin: 0;
+    padding: 20px;
+}
+
+.buttonwithimage {
+    vertical-align: middle; /* Aligns the image vertically with the button */
+    margin-left: auto;
+    margin-right: auto;    
+    
+
+
+
+
+}
+
+button:hover {
+    background-color: rgb(50,0,0);
+    color: red;
+}

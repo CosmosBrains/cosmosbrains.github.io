@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div id="head"></div>
+
+<div class="box">
+
+<h1 class="ce">Welcome to my Website!</h1>
+
+<p class="ce">This is where I keep all of my projects!</p>
+
+<p class="ce">All projects created by me are on the 'Projects' tab.</p>
+
+<p class="ce">Website is coded by me, though it is VERY unfinished.</p>
+
+<img class="img_center" src="images/cosmo.png" width="500px">
+
+<hr>
+
+<h2 class = "ce">About</h2>
+
+<p class="ce">I'm CosmosBrains, though I just refer to myself as Cosmo most of the time.</p>
+
+<p class="ce">Who am I? Just some random obselete internet (robot but not actually) guy.</p>
+
+<p class="ce">I needed a place to put my projects, so that's where CosmoWeb came from.</p>
+
+<p class="ce">I like to make games and music, that's my thing. I'm a programmer basically.</p>
+
+<img class="img_center" src="images/computer_cosmo.png" width="500px">
+
+<hr>
+
+<h2 class="ce">Thanks to:</h2>
+
+<p class="ce"><a href="https://cooltext.com/">CoolText</a> for the epic header text.</p>
+<p class="ce">All other drawings are created by me! Thanks me!</p>
+
+</div>
+
+
+
+<script>
+
+    fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+    document.getElementById("head").innerHTML = data
+    })
+
+</script>
+
+</body>
+
+</html>
