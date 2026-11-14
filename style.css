@@ -145,3 +145,7 @@ button:hover {
     background-color: rgb(50,0,0);
     color: red;
 }
+
+audio {
+    vertical-align: middle;
+}
