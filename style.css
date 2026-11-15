@@ -131,7 +131,7 @@ button {
 }
 
 .buttonwithimage {
-    vertical-align: middle; /* Aligns the image vertically with the button */
+    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;    
     
