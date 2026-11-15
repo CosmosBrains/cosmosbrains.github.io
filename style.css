@@ -20,22 +20,45 @@ a
     display: flex;
     justify-content: center;
     gap: 10%;
+    
 }
 
 .bar {
     border-bottom: 1px solid red;
     padding: 15px 0;   
+    background-image: url(images/red_space.png);
+    background-position-y: 0px 0px;
+    background-repeat: repeat;
+    background-size: auto;
+    animation: bar_anim 3s linear infinite;
+}
+
+@keyframes bar_anim {
+
+    0% {background-position-y: 0px; background-position-x: 0px;}
+    100% {background-position-y: 64px; background-position-x: -64px;}
 }
 
 .navlist a {
     transition: color 0.3s;
-    font-family:'Courier New', Courier, monospace;
+    font-family:futured;
     font-weight: bolder;
     font-size: 24px;
 }
 
 .navlist a:hover {
     color: rgb(255,200,200)
+}
+
+.navlist li {
+border: 4px solid red;
+background-color: black;
+padding: 10px 120px;
+border-radius: 12px;
+
+border-color: red;
+
+
 }
 
 .bar img {
@@ -68,19 +91,31 @@ img {
 }
 
 p {
-    font-family:monospace;
+    font-family:futured;
     font-size: 25px;
+}
+
+@font-face {
+            font-family: 'energydimension';
+            src: url(fonts/energydimension.ttf);
+}
+
+@font-face {
+            font-family: 'futured';
+            src: url(fonts/futured.ttf);
 }
 
 h1
 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: energydimension;
     font-size: 75px;
+    font-weight: lighter;
 }
 
 h2
 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: energydimension;
+    font-weight: lighter;
     font-size: 50px;
 }
 .box {
@@ -112,7 +147,7 @@ button {
     background-color: rgb(100,0,0);
     border-color: red;
     color: red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: futured;
     transition: 0.1s ease;
     padding: 5px 70px;
 }
