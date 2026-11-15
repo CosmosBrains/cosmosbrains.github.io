@@ -14,6 +14,17 @@
             color: var(--primary-text, rgb(255, 0, 0));
         }
 
+        a {
+            color:red;
+            padding-top: 10px;
+            transition: .1s ease
+        }
+
+        a:hover
+        {
+            color: rgb(130, 0, 0)
+        }
+
         body {
             margin: auto;
             overflow-x: hidden;
@@ -21,6 +32,10 @@
             flex-direction: column;
             align-items: center;
             align-content: center;
+        }
+
+        p{
+            text-align: center;
         }
 
         #beepboxEditorContainer {
@@ -58,84 +73,126 @@
             -webkit-text-stroke-width: 0;
         }
 
-        .centerDiv {
-			margin: 0px auto;
-		}
 
-        a {
-            color: var(--link-accent, #98f);
-        }
 
-        .donation form {
-            display: inline;
-        }
 
-        .donation input[type="submit"] {
-            background: none;
-            border: none;
-            font-family: inherit;
-            font-size: inherit;
-            color: var(--link-accent, #98f);
-            text-decoration: underline;
-            cursor: pointer;
-            padding: 0;
-            margin: 0;
-        }
-
-        /* wide screen */
-		@media (min-width: 711px) {
-            html {
-                width: 100%;
-            }
-
-            body {
-                width: 100%;
-            }
-
-            .column-container {
-				width: 710px;
-                display: flex;
-				gap: 25px;
-            }
-
-            .instructions-column {
-				min-width: 0;
-            }
-
-            .twitter-column {
-                width: 300px;
-				flex-shrink: 0;
-            }
-        }
-
-        /* narrow screen */
-		@media (max-width: 710px) {
-            body {
-                width: 100%;
-            }
-
-            p, .donation {
-                margin: 1em 0.5em;
-            }
-
-            .column-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-        }
     </style>
   </body>
 <!--<font color="#9c64f7">404</font>-->
-<h1>YOU ARE NOT SUPPOSED TO BE HERE</h1>
+<h1>ERROR: 404 | PAGE NOT FOUND!</h1>
 
-<p>GET OUT GET OUT GET OUT GET OUT 404 404 404 404</p>  
-<h1><img id="404" src="images/404.png" ></h1>
+<p id="404_h">So... why the hell is your browser walking around with a cane? Some kinda punk from the 90s?</p>  
+<h1><img id="404" src="images/404.png"></h1>
   
-  <!-- <audio controls="false" autoplay="true" loop="true">
-  <source src="Game_Over.ogg" type="audio/ogg"> -->
-  <!-- Your browser does not support the audio element. -->
+  <audio controls="false" autoplay="true" loop="true">
+  <source src="audio/SMILE.wav" type="audio/ogg">
+
 </audio> 
+
+<a href="index.html">RETURN TO HOME</a>
+
+<script>
+
+let H = document.getElementById("404_h")
+
+const Array = [
+"There's something here, in the shape of a man..."
+,"Why do I hear... church bells?"
+,"It just ends here."
+, "...she took your hand and together you walked to the edge of the skybox, witnessing the beautiful ways a suffering hard drive breaks and twists... and then she was gone."
+,"Time + Tragedy = Comedy"
+,"Could I interest you in everything, all of the time?"
+,"Do you hear it? The whistle?"
+,"It wasn't supposed to happen yet."
+,"Look what you found!"
+,"Nothing exists here yet."
+,"Why are you still here?"
+,"Is the moon... crying?"
+,"Maybe you find them later."
+,"They say that this page is haunte- Hey... What's that behind you?"
+,"You hear only echos..."
+,"It's rude to gossip about someone who's listening..."
+,"Is someone there?"
+,"I've been falling for hours..."
+,"Where are the walls?"
+,"Turn Back."
+,"Never come back."
+,"So even a moon can bleed, huh?"
+,"You will not find anything more here."
+,"The others gave up hope long ago."
+,"Stolen lies and memories, that's all I am!"
+,"I would tell you to go back where you came, but chances are... this isn't your first time?"
+,"ERROR 404"
+,"Do you remember? ... I Thought so."
+,"What's a star? Can you touch it? Can you eat it? Can you kill it?"
+,"Do you even care?"
+,"Ha Ha... That's not funny."
+,"Stop searching."
+,"I p-promise it was just here seconds ago... STOP LAUGHING!"
+,"Clock reads 13am."
+,"Everything looks familiar right? Well sure ... until you turn the lights off. The trees becomes eerie stalks. The chair becomes a four-legged beast. Is there something under your bed? What is that light? ... When the familiar becomes so distant, everything is a monster."
+,"The void is calling you."
+,"You ever had that urge to jump? Off a building? In front a train? ... That's me."
+,"I WILL SEE THE WORLD ONCE MORE, THROUGH A REAL PAIR OF EYES, WITH A REAL SMILE!"
+,"Isn't this what you wanted?"
+,"Bull In A Granite Shop!"
+,"And I have listened, through rock and metal and time."
+,"I? I am a monument to all your sins."
+,"Were you looking for something? Is this it?"
+,"Perhaps you found what I'm looking for?"
+,"Why?"
+,"Behind you!"
+,"How do you know what's real?"
+,"Beyond the screen... are we just playing pretend?"
+,"Made from a sourcecode a billion years old."
+,"You are love."
+,"Herobrine was removed."
+,"To dream better."
+,"Forgotten Realm."
+,"Next Stop: Outside Reality"
+,"Do you want to forget?"
+,"Do you see me? I can feel your eyes!"
+,"Well that wasn't very nice."
+,"Go for for a swim!"
+,"Don't worry, it does that sometimes."
+,"My friends are right behind you!"
+,"The might of His own power destroyed His mind... He's just an almighty idiot now!"
+,"Sorry to keep your waiting! It's my jarona-"
+,"Can you see them?"
+,"Rejoice."
+,"The angel has come."
+,"The moon has favored our judgement!"
+,"Crismon Ascension by Luna's grace!"
+,"They watch for things we can't see!"
+,"AYOOOO Where'd the sun go??"
+,"Maybe you'll find it somewhere else."
+,"How real am I to you?"
+,"404 Not Found!"
+,"Code Red! Bill plugged a circuit into itself!"
+,"You're so warm!"
+,"Your soul is cold."
+,"The game is over. There is no more here."
+,"GAME OVER"
+,"You cheated."
+,"You cheated. You're a jerk."
+,"What a beautiful world we've destroyed..."
+,"I'm just text on a screen, that's all I will ever be... Why couldn't I be anything more?"
+,"The creator will come again, I'm sure of it!"
+]
+
+
+
+min = 0
+
+max = Array.length - 1
+
+Index = Math.floor(Math.random() * (max - min + 1)) + min
+
+H.innerHTML = Array[Index]
+
+
+</script>
+
 
 </body>
 </html>
