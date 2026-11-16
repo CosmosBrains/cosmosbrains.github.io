@@ -10,7 +10,12 @@ body {
 a
 {
     color: rgb(252, 67, 67);
+    transition: color 0.3s;
+}
 
+a:hover
+{
+    color: rgb(255, 184, 184);;
 }
 
 .navlist {
