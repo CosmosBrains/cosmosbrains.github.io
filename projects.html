@@ -3,6 +3,7 @@
 <head>
     <title>CosmoWeb Projects</title>
     <link rel="stylesheet" href="style.css">
+    <script src="header.js"></script>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
@@ -23,40 +24,32 @@
 
 <p class="ce">This is a index of all my projects hosted on Github!</p>
 
-<img class="img_center" src="images/projects.png" width="250px">
+<!--I'm really tired.-->
+
+<img class="img_center" src="images/projects.png" alt="Cosmo infront of a bookshelf of projects." title="this is when you can tell i'm not the best artist, but at least i still draw." width="250px">
 
 <div class="bidiv">
-<img class="buttonimage" src="images/lunabox.png" width="64px">
+<img class="buttonimage" src="images/lunabox.png" alt="Crismon moon." title="it's called LunaBox so of course the icon is a moon. but red. yay." width="64px">
 <button class="buttonwithimage" onclick="window.location.href='https://cosmosbrains.github.io/LunaBox/'">LunaBox</button>
 </div>
 
 <p class="ce">A music composing program modded from <a href="https://choptop84.github.io/abyssbox-app/">AbyssBox</a>, which traces back as a mod of <a href="https://www.beepbox.co/">Beepbox</a>, this is what I used to make all of my music, which I created to personally configure every aspect of the software.</p> 
 
 <div class="bidiv">
-<img class="buttonimage" src="images/sad.png" width="64px">
+<img class="buttonimage" src="images/sad.png" alt="A badly drawn spaceship." title="im really sorry for this spaceship. i know it looks like that. i know it looks bad. but im keeping it anyway." width="64px">
 <button class="buttonwithimage" onclick="window.location.href='https://cosmosbrains.github.io/STELI-SPACECRAFT/'">STELI SPACECRAFT</button>
 </div>
 
 <p class="ce">A flappy-bird game where you fly a spaceship through an endless array of pipes. Controls are simple: Hold CLICK or FINGER to fly upwards, let go to fly down. Made with GameMaker. WARNING: I'm not very good at drawing, though honestly it doesn't take much to see that.</p>
 
 <div class="bidiv">
-<img class="buttonimage" src="images/novaearth.png" width="64px">
+<img class="buttonimage" src="images/novaearth.png" alt="A snowy planet with great purple rings." title="this is a real planet that actually exists in the program, but i forgot what the planet seed was. so if you want to know the planet seed, hope you can borrow a NASA supercomputer to guess the seed." width="64px">
 <button class="buttonwithimage" onclick="window.location.href='https://cosmosbrains.github.io/NovaEarth/'">NovaEarth</button>
 </div>
 
 <p class="ce">Inspired by <a href="https://www.fourmilab.ch/terranova/">Terranova</a>, this program generates a new planet everyday, like how humanity might one day look down from the cockpits of spaceships on a thousand different worlds. Clicking will generate a random planet. Made with GameMaker, using <a href="https://github.com/Auburn/FastNoiseLite">FastNoiseLite</a> by Jordan Peck to generate the perlin noise.</p>
 
 </div>
-
-<script>
-
-    fetch("header.html")
-    .then(response => response.text())
-    .then(data => {
-    document.getElementById("head").innerHTML = data
-    })
-
-</script>
 
 </body>
 
